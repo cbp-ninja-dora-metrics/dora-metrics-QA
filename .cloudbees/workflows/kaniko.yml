@@ -4,7 +4,7 @@ name: Build Plugin Blackduck Scanner
 on:
   push:
     branches:
-      - test-dora
+      - main
   workflow_dispatch:
 permissions:
   scm-token-own: read
